@@ -6,6 +6,15 @@
   </head>
   <body>
     <h1>Welcome to Crawler Test Page</h1>
-    <p>Use <a href="redirect_test.html">redirect_test.html</a> for testing your crawler.</p>
+    <p>Links below cover different redirect scenarios for testing:</p>
+    <ul>
+      <li><a href="normal.html">Normal URL → no redirect</a></li>
+      <li><a href="trailing-slash.html">Same URL with trailing slash → no redirect</a></li>
+      <li><a href="internal-redirect.html">Internal redirect → same domain</a></li>
+      <li><a href="external-302.html">Redirect → example.com (302)</a></li>
+      <li><a href="external-301.html">Redirect → developer.mozilla.org (301)</a></li>
+      <li><a href="multi-step.html">Multi-step redirect (3 hops)</a></li>
+      <li><a href="external-stackoverflow.html">Redirect → stackoverflow.com (302)</a></li>
+    </ul>
   </body>
 </html>

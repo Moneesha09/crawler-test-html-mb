@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Intermediate Redirect</title>
+    <!-- Redirect finally to normal.html -->
+    <meta http-equiv="refresh" content="0; URL='normal.html'" />
+  </head>
+  <body>
+    <p>Redirecting to final page...</p>
+  </body>
+</html>
