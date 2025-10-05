@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirect Test Seed</title>
+  </head>
+  <body>
+    <h1>Redirect Test Seed</h1>
+    <p>Links below cover different redirect scenarios for testing:</p>
+    <ul>
+      <li><a href="https://httpbin.org/anything/test">Normal URL → no redirect</a></li>
+      <li><a href="https://httpbin.org/anything/test/">Same URL with trailing slash → no redirect</a></li>
+      <li><a href="https://httpbin.org/redirect-to?url=/anything/test">Internal redirect → same domain</a></li>
+      <li><a href="https://httpbin.org/redirect-to?url=https://example.com">Redirect → example.com (302)</a></li>
+      <li><a href="https://httpbin.org/redirect-to?url=https://developer.mozilla.org&status_code=301">Redirect → developer.mozilla.org (301)</a></li>
+      <li><a href="https://httpbin.org/redirect/3">Multi-step redirect (3 hops)</a></li>
+      <li><a href="https://httpbin.org/redirect-to?url=https://stackoverflow.com">Redirect → stackoverflow.com (302)</a></li>
+    </ul>
+  </body>
+</html>
